@@ -1,0 +1,16 @@
+create database java
+
+use java
+
+create table alunos(
+ra char(13) primary key,
+nome varchar(50),
+curso varchar(20),
+semestre int)
+
+insert into alunos values ('1','Ana','ADS',3)
+insert into alunos values ('2','Bia','ADS',2)
+insert into alunos values ('3','Carla','ADS',1)
+insert into alunos values ('4','Deise','ADS',5)
+insert into alunos values ('5','Eliane','ADS',6)
+select * from alunos
